@@ -1,0 +1,2 @@
+delete token column from useracounts
+create  gcmtokens table

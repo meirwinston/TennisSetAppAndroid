@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TennisSetApp.iml" filepath="$PROJECT_DIR$/TennisSetApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tennissetapp/tennissetapp.iml" filepath="$PROJECT_DIR$/tennissetapp/tennissetapp.iml" />
+    </modules>
+  </component>
+</project>
+

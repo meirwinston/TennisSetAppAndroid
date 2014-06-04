@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_frame"
+    android:orientation="vertical"
+    android:padding="0dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="@dimen/space3"
+        android:paddingTop="@dimen/space3"
+        android:text="@string/title_tennis_level"
+        android:textColor="@color/turquoise"
+        android:textSize="@dimen/text_h3" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space0"
+        android:background="@color/turquoise" />
+
+    <LinearLayout
+        android:id="@+id/level_check1_layout"
+        android:paddingLeft="@dimen/space5"
+        android:paddingRight="@dimen/space5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space8"
+        android:background="@drawable/selector_menuitem"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:text="@string/label_1_5__2_5"
+            android:textColor="@color/gray" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/border_height"
+        android:background="@color/gray_light" />
+
+    <LinearLayout
+        android:id="@+id/level_check2_layout"
+        android:paddingLeft="@dimen/space5"
+        android:paddingRight="@dimen/space5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space8"
+        android:background="@drawable/selector_menuitem"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/left_hand_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/label_3__3_5"
+            android:textColor="@color/gray" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/border_height"
+        android:background="@color/gray_light" />
+    
+    <LinearLayout
+        android:id="@+id/level_check3_layout"
+        android:paddingLeft="@dimen/space5"
+        android:paddingRight="@dimen/space5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space8"
+        android:background="@drawable/selector_menuitem"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/label_4__4_5"
+            android:textColor="@color/gray" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/border_height"
+        android:background="@color/gray_light" />
+    
+    <LinearLayout
+        android:id="@+id/level_check4_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space8"
+        android:paddingLeft="@dimen/space5"
+        android:paddingRight="@dimen/space5"
+        android:background="@drawable/selector_menuitem"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/label_5__5_5"
+            android:textColor="@color/gray" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/border_height"
+        android:background="@color/gray_light" />
+    
+    <LinearLayout
+        android:id="@+id/level_check5_layout"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/space5"
+        android:paddingRight="@dimen/space5"
+        android:layout_height="@dimen/space8"
+        android:background="@drawable/selector_menuitem"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/label_6__7"
+            android:textColor="@color/gray" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/border_height"
+        android:background="@color/gray_light" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/border_height"
+        android:layout_marginLeft="@dimen/border_height"
+        android:layout_marginTop="@dimen/space1"
+        android:background="@color/gray_lighter" />
+
+</LinearLayout>

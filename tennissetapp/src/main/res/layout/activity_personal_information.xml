@@ -1,0 +1,199 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logintLayout"
+    style="@style/LoginActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light"
+    android:orientation="vertical"
+    tools:context=".PersonalInformationActivity" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space6" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_rowSpan="3"
+            android:layout_marginLeft="@dimen/space3"
+            android:layout_marginRight="@dimen/space3"
+            android:layout_row="0"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/empty"
+            android:src="@drawable/profile" />
+
+        <EditText
+            android:id="@+id/tennis_level_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/space3"
+            android:paddingBottom="@dimen/space3"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal|center_vertical"
+            android:layout_row="0"
+            android:background="@android:color/white"
+            android:hint="@string/label_first_name"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:background="@color/gray_lighter" />
+
+        <EditText
+            android:id="@+id/hand_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/space3"
+            android:paddingBottom="@dimen/space3"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical"
+            android:layout_row="2"
+            android:background="@android:color/white"
+            android:hint="@string/hint_last_name"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <!-- gender -->
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:background="@color/gray_lighter" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_row="4"
+            android:contentDescription="@string/empty"
+            android:src="@drawable/gender" />
+
+        
+        <TextView
+            android:id="@+id/type_of_match_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:paddingTop="@dimen/space3"
+            android:paddingBottom="@dimen/space3"
+            android:layout_gravity="fill_horizontal|center_vertical"
+            android:layout_row="4"
+            android:background="@android:color/white"
+            android:entries="@array/profile_gender"
+            android:hint="@string/hint_gender" />
+        
+
+        <!-- birthday -->
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_column="1"
+            android:layout_row="5"
+            android:background="@color/gray_lighter" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_row="6"
+            android:contentDescription="@string/empty"
+            android:src="@drawable/calendar" />
+
+        
+        <TextView
+            android:id="@+id/type_of_play_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal|center_vertical"
+            android:paddingTop="@dimen/space3"
+            android:paddingBottom="@dimen/space3"
+            android:layout_row="6"
+            android:background="@android:color/white"
+            android:hint="@string/hint_birth_date" />
+        
+        <!-- location -->
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_column="1"
+            android:layout_row="7"
+            android:background="@color/gray_lighter" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:layout_row="8"
+            android:contentDescription="@string/empty"
+            android:src="@drawable/map_pointer" />
+
+        
+        <AutoCompleteTextView
+            android:id="@+id/availability_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:layout_gravity="fill_horizontal|center_vertical"
+            android:paddingTop="@dimen/space3"
+            android:paddingBottom="@dimen/space3"
+            android:layout_row="8"
+            android:background="@android:color/white"
+            android:hint="@string/title_city_and_country" />
+        
+    </GridLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space4" />
+
+    <Button
+        android:id="@+id/submit_button"
+        style="@style/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/space4"
+        android:text="@string/done_label" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space4" />
+
+</LinearLayout>

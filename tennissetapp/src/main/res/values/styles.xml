@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+
+    <color name="turquoise">#1abdc4</color>
+    <color name="turquoise_light">#3dc0c4</color>
+    <color name="green">#068391</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ef3e5e</color>
+    <color name="pink">#f8aeba</color>
+    <color name="gray_dark">#444649</color>
+    <color name="gray">#979894</color>
+    <color name="gray_darker">#747473</color>
+    <color name="gray_light">#f4f2f2</color>
+    <color name="gray_lighter">#c8c8c1</color>
+
+    <style name="TennisSetAppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:windowTitleStyle">@style/DialogTitle</item>
+        <item name="android:spinnerItemStyle">@style/RobotoSpinnerItemStyle</item>
+        <item name="android:displayOptions">showTitle</item>
+        
+        <!--
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/MyActionBarTabBarStyle</item>
+        -->
+        <item name="android:textSize">@dimen/text_h6</item>
+    </style>
+
+    <style name="PressedTextView">
+        <item name="android:textColor">@color/turquoise</item>
+    </style>
+    
+    <style name="DialogTitle">
+        <item name="android:textColor">@color/turquoise</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+    
+    <style name="RobotoSpinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/gray_dark</item>
+        <item name="android:textSize">@dimen/text_h5</item>
+        
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <!-- <item name="android:fontFamily">sans-serif-light</item> -->
+        <!--
+        <item name="android:background">#FF1abdc4</item>
+        <item name="android:textColor">#FFffffff</item>
+        <item name="android:gravity">center</item>
+        -->
+    </style>
+
+    <!-- action bar style -->
+    <style name="ActionBarStyle" parent="@android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/gray_dark</item>
+        <item name="android:backgroundSplit">@color/gray_dark</item>
+    </style>
+
+    <!-- end of tabs style -->
+
+    <style name="LoginActivity">
+
+        <!-- <item name="android:displayOptions">useLogo|showHome|showTitle</item> -->
+        <item name="android:displayOptions">showTitle</item>
+    </style>
+
+    <style name="LinkText">
+        <item name="android:textColor">@color/turquoise</item>
+    </style>
+
+    <style name="ButtonColors">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/turquoise</item>
+        <item name="android:textSize">@dimen/text_h3</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_h4</item>
+    </style>
+
+    <!--
+    android:fontFamily="sans-serif"           // roboto regular
+	android:fontFamily="sans-serif-light"     // roboto light
+	android:fontFamily="sans-serif-condensed" // roboto condensed
+	android:fontFamily="sans-serif-thin"      // roboto thin (android 4.2) 
+    -->
+
+    <style name="HomeTitleFont">
+        <item name="android:textSize">@dimen/text_h4</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <style name="ListItemTitleFont">
+        <item name="android:textSize">@dimen/text_h5</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <style name="ListItemContentFont">
+        <item name="android:textSize">@dimen/text_h5</item>
+        <item name="android:textColor">@color/gray_lighter</item>
+    </style>
+
+    <style name="H1">
+        <item name="android:textSize">@dimen/text_h1</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <style name="H2">
+        <item name="android:textColor">@color/gray_dark</item>
+        <item name="android:textSize">@dimen/text_h2</item>
+    </style>
+
+    <style name="H3">
+        <item name="android:textColor">@color/gray_dark</item>
+        <item name="android:textSize">@dimen/text_h3</item>
+    </style>
+
+    <style name="H4">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/text_h4</item>
+    </style>
+    
+    <style name="CalendarDayOfWeek">
+        <item name="android:textColor">@color/gray_darker</item>
+        <item name="android:textSize">@dimen/text_h4</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="CalendarDayOfMonth">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/text_h1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="CheckBox">
+        <item name="android:textColor">@color/gray_dark</item>
+        <item name="android:paddingLeft">@dimen/space2</item>
+        <item name="android:textSize">@dimen/text_h3</item>
+    </style>
+    
+</resources>

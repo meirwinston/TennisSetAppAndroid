@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="label_write_a_message">Write a message</string>
+    <string name="unicode_black_circle">\u25CF</string>
+    <string name="app_name">Tennis SetApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_button_label">Login</string>
+    <string name="create_label">Create</string>
+    <string name="done_label">Done</string>
+    
+    <string name="person">person</string>
+    <string name="empty"></string>
+    <string name="tag_calendar">CALENDAR</string>
+    <string name="tag_player_profile_create">CREATE_PLAYER_PROFILE</string>
+    <string name="tag_select_favorite_court">SELECT_FAVORITE_TENNIS_COURT</string>
+    <string name="tag_player_level">PLAYER_LEVEL</string>
+    <string name="tag_tennis_details">TENNIS_DETAILS</string>
+    <string name="tag_mates_search">SEARCH_MATES</string>
+    <string name="tag_mates_favorites">FAVORITE_MATES</string>
+    <string name="tag_mates_nearby">NEARBY_MATES</string>
+    <string name="tag_mates_search_results">MATES_SEARCH_RESULTS</string>
+    
+    <string name="tag_matches_search">SEARCH_MACHES</string>
+    <string name="tag_matches_search_results">MATCHES_SEARCH_RESULTS</string>
+    
+    <string name="tag_teachers_search">SEARCH_TEACHERS</string>
+    <string name="tag_teachers_search_results">TEACHERS_SEARCH_RESULTS</string>
+    <!-- hints -->
+    <string name="hint_search_via_name_or_email">Search via name or email</string>
+    <!-- titles -->
+    <string name="title_welcome_to_tennissetapp">Welcome to Tennis SetApp!</string>
+    <string name="title_mid_intermediate">MID-INTERMEDIATE</string>
+    <string name="title_intermediate">INTERMEDIATE</string>
+    <string name="title_semi_advanced">SEMI-ADVANCED</string>
+    <string name="title_advanced">ADVANCED</string>
+    <string name="title_activity_player_profile">PROFILE</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_indoor_outdoor">INDOOR/OUTDOOR</string>
+    <string name="title_profile_information">PROFILE INFORMATION</string>
+    <string name="title_personal_information">PERSONAL INFORMATION</string>
+    <string name="title_personal_details">PERSONAL DETAILS</string>
+    <string name="title_tennis_details">TENNIS DETAILS</string>
+    <string name="title_tennis_level">TENNIS LEVEL</string>
+    <string name="title_type_of_play">TYPE OF PLAY</string>
+    <string name="title_type_of_match">TYPE OF MATCH</string>
+    <string name="title_beginner">BEGINNER</string>
+    <string name="title_hand">HAND</string>
+    <string name="title_gender">GENDER</string>
+    <string name="title_select_multiple_options">You can select multiple options</string>
+    <string name="title_availability">AVAILABILITY</string>
+    <string name="title_weekdays">WEEKDAYS</string>
+    <string name="title_weekends">WEEKENDS</string>
+    <string name="title_location">LOCATION</string>
+    <string name="title_city_and_country">CITY &amp; COUNTRY</string>
+    <string name="title_bio">BIO</string>
+    <string name="title_location2">Type an address that fits you</string>
+    <string name="title_find_a_tennis_mate">Find a tennis mate</string>
+    <string name="title_hit_the_courts">Hit the courts</string>
+    <string name="title_activity_create_player_profile">CreatePlayerProfileActivity</string>
+    <string name="title_activity_player_profile_ratings">RATINGS</string>
+    <string name="title_activity_player_profile_mates">PlayerProfileMatesActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_tennis_mates">TENNIS MATES</string>
+    <string name="title_activity_tennis_matches">MATCHES</string>
+    <string name="title_surface">SURFACE</string>
+    <string name="title_level_of_play">LEVEL OF PLAY</string>
+    <string name="title_time">TIME</string>
+    <string name="title_who_can_view_this_match">WHO CAN VIEW AND RSVP TO THIS MATCH</string>
+    <string name="title_experience_and_specialty">EXPERIENCE &amp; SPECIALTY</string>
+    <string name="title_create_a_profile">Create a profile</string>
+    <string name="title_signup">SIGNUP</string>
+    <string name="title_create_an_account">Create an account</string>
+    <string name="title_rate">RATE</string>
+    <string name="title_activity_teachers">TEACHERS</string>
+    <string name="title_today">TODAY</string>
+    <!-- labels -->
+    <string name="label_profile">Profile</string>
+    <string name="label_edit_profile">Edit Profile</string>
+    <string name="label_find_tennis_mates">Find Tennis Mates</string>
+    <string name="label_notifications">Notifications</string>
+    <string name="label_messages">Messages</string>
+
+    <!-- -->
+    <string name="title_activity_courts">COURTS</string>
+    <string name="title_outdoor_courts">OUTDOOR COURTS</string>
+    <string name="title_indoor_courts">INDOOR COURTS</string>
+    <string name="title_courts_create">Create</string>
+    <string name="title_courts_nearby">Nearby</string>
+    <string name="title_courts_search">Search</string>
+    <string name="title_create_tennis_center">CREATE TENNIS CENTER</string>
+    <string name="label_name_of_tennis_center">Name of the tennis center</string>
+    <string name="label_address">Address</string>
+    <string name="label_website_if_any">Website (if any or known)</string>
+    <string name="label_telephone_if_any">Telephone (if any or known)</string>
+    <string name="label_add_court">Add court</string>
+    <string name="label_no_courts_specified">No courts specified!</string>
+    <string name="label_court_surface">Court surface</string>
+    <string name="label_number_of_courts">Number of courts</string>
+    <string name="one">1</string>
+    <string name="label_create">Create</string>
+
+    <!-- -->
+    <string name="title_activity_login">LOGIN</string>
+    <string name="label_signup">Sing Up</string>
+    <string name="disclaimer_signup">By creating a profile I accept Tennis SetApp\'s Terms &amp; Conditions and Privacy Policy</string>
+
+    <!-- -->
+    <string name="label_mates">Mates</string>
+    <string name="label_courts">Courts</string>
+    <string name="label_ratings">Ratings</string>
+    <string name="label_attendance">Attendance</string>
+    <string name="label_punctuality">Punctuality</string>
+    <string name="label_tennis_level">TENNIS LEVEL</string>
+    <string name="label_post_something">Post Something&#8230;</string>
+    <string name="label_post">Post</string>
+
+    <!-- -->
+    <string name="label_no_mates_available_yet">NO MATES AVAILABLE YET</string>
+    <string name="label_no_messages">NO MESSAGES</string>
+    <string name="label_set">Set</string>
+    <string name="label_later">Later</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_create_an_account">Create an account</string>
+    <string name="label_say_something_about_you">Say something about you as a tennis player</string>
+    <string name="label_type_an_address">Type an address that best fits you</string>
+    <string name="label_pick_your_favorite_court">Pick your favorite court</string>
+    <string name="label_select_your_level">Select your level</string>
+    <string name="label_create_profile">Create Profile</string>
+    <string name="label_upload_image">Upload Image</string>
+    <string name="label_first_name">FIRST NAME</string>
+    <string name="label_next">Next</string>
+    <string name="label_last_name">Last Name</string>
+    <string name="label_calendar">Calendar</string>
+    <string name="label_birthday">Birthday (we won\'t make it public)</string>
+    <string name="label_male">Male</string>
+    <string name="label_female">Female</string>
+    <string name="label_left">Left</string>
+    <string name="label_right">Right</string>
+    <string name="label_singles">Singles</string>
+    <string name="label_doubles">Double</string>
+    <string name="label_full_match">Full match</string>
+    <string name="label_hitting_around">Hitting around</string>
+    <string name="label_points">Points</string>
+    <string name="label_morning">Morning (6am-12pm)</string>
+    <string name="label_afternoon">Afternoon (12pm-6pm)</string>
+    <string name="label_evening">Evening (6pm-12am)</string>
+    <string name="label_not_show_address">We won\'t show your address to public</string>
+    <string name="label_search">Search</string>
+    <string name="label_join">Join</string>
+    <string name="label_details">Details</string>
+    <string name="label_date">Date</string>
+    <string name="label_start_time">Start Time</string>
+    <string name="label_end_time">End Time</string>
+    <string name="label_court_name">Court Name</string>
+    <string name="label_open_in_maps">Open in Maps</string>
+    <string name="label_telephone">Telephone</string>
+    <string name="label_website">Website</string>
+    <string name="link_find_your_level">CLICK HERE TO FIND YOUR LEVEL</string>
+    <string name="link_forgot_your_password">Forgot your password?</string>
+    <string name="label_login">Login</string>
+    <string name="label_welcome_disclaimer">We deeply care about your privacy\nTerms of use and Privacy Policy</string>
+    <string name="label_create_account_disclaimer">Creating an account you accept Tennis SetApp\'s\nTerms of Use and Privacy Policy</string>
+    <string name="label_welcome_this_is_it">This is it!\nYou are now all set to schedule\nyour matches and hit the courts.</string>
+    <string name="label_welcome_on_board">Welcome on board!\nGet started by quickly telling us\nabout yourself as a tennis player.</string>
+    <string name="label_welcom_one_tap">One tap fits all!\nFind tennis players around you\nthat match all you tennis features.</string>
+    <string name="label_rate">Rate</string>
+    <string name="label_teacher_certified">Teacher certified?</string>
+    <string name="label_specialty">Specialty</string>
+    <string name="label_add_to_mates">Add to Mates</string>
+    <string name="label_message">Message</string>
+    <string name="label_calendar_sun">SUN</string>
+    <string name="label_calendar_mon">MON</string>
+    <string name="label_calendar_tue">TUE</string>
+    <string name="label_calendar_wed">WED</string>
+    <string name="label_calendar_thu">THU</string>
+    <string name="label_calendar_fri">FRI</string>
+    <string name="label_calendar_sat">SAT</string>
+    <string name="label_level_one">1.0</string>
+    <string name="label_level_one_and_half">1.5</string>
+    <string name="label_level_two">2.0</string>
+    <string name="label_level_two_and_half">2.5</string>
+    <string name="label_level_three">3.0</string>
+    <string name="label_level_three_and_half">3.5</string>
+    <string name="label_level_four">4.0</string>
+    <string name="label_level_four_and_half">4.5</string>
+    <string name="label_level_five">5.0</string>
+    <string name="label_level_five_and_five">5.5</string>
+    <string name="label_level_six">6.0</string>
+    <string name="label_level_six_and_half">6.5</string>
+    <string name="label_level_seven">7.0</string>
+    <string name="text_player_level_1.5">You have limited experience and are working primarily on getting the ball in play.</string>
+    <string name="text_player_level_2">You lack court experience and your strokes need developing. You are familiar with the basic positions for singles and doubles play.</string>
+    <string name="text_player_level_2.5">You are learning to judge where the ball is going, although your court coverage is limited. You can sustain a short rally of slow pace with other players of the same ability.</string>
+    <string name="text_player_level_3">You are fairly consistent in hitting medium-paced shots, but are not comfortable with all strokes and lack execution when trying for directional control, depth, or power. Your most common doubles formation is one-up, one-back.</string>
+    <string name="text_player_level_3.5">You have achieved improved stroke dependability with directional control on moderate shots, but need to develop depth and variety.  You exhibit more aggressive net play, have improved court coverage and are developing teamwork in doubles.</string>
+    <string name="text_player_level_4">You have dependable strokes, including directional control and depth on both forehand and backhand sides on moderate-paced shots.  You can use lobs, overheads, approach shots and volleys with some, success and occasionally force errors when serving. Rallies may be lost due to impatience.  Teamwork in doubles is evident.</string>
+    <string name="text_player_level_4.5">You have developed your use of power and spin and can handle pace. You have sound footwork, can control depth of shots, and attempt to vary game plan according to your opponents.  You can hit first serves with power and accuracy and place the second serve.  You tend to overhit on difficult shots. Aggressive net play is common in doubles.</string>
+    <string name="text_player_level_5">You have good shot anticipation and frequently have an outstanding shot or attribute around which a game may be structured. You can regularly hit winners or force errors off of short balls and can put away volleys.  You can successfully execute lobs, drop shots, half volleys, overhead smashes, and have good depth and spin on most second serves.</string>
+    <string name="text_player_level_5.5">You have mastered power and/or consistency as a major weapon.  You can vary strategies and styles of play in a competitive situation and hit dependable shots in a stress situation.</string>
+    <string name="text_player_level_6">You have had intensive training for national tournament competition at the junior and collegiate levels and have obtained a sectional and/or national ranking.</string>
+    <string name="text_player_level_7">You are a world-class player.</string>
+	<string name="text_welcome_to_tennissetapp">Please start by providing us with your tennis details.\n\nWe will use them to find the perfect mates around you.</string>
+    <string-array name="teacher_certified">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="teacher_specialty">
+        <item>Juniors</item>
+        <item>Adults</item>
+        <item>Turnaments</item>
+    </string-array>
+    <string-array name="match_visibility">
+        <item>Only the friends I invite</item>
+        <item>Everyone</item>
+    </string-array>
+    
+    <string name="label_1_5__2_5">1.5 &#8211; 2.5</string>
+    <string name="label_3__3_5">3 &#8211; 3.5</string>
+    <string name="label_4__4_5">4 &#8211; 4.5</string>
+    <string name="label_5__5_5">5 &#8211; 5.5</string>
+    <string name="label_6__7">6 &#8211; 7</string>
+    
+    <string-array name="array_search_player_level">
+        <item>1.5&#8211;2.5</item>
+        <item>3&#8211;3.5</item>
+        <item>4&#8211;4.5</item>
+        <item>5&#8211;5.5</item>
+        <item>6&#8211;7</item>
+    </string-array>
+    
+    <!-- used by search matches fragment - try to remove this -->
+    <string-array name="array_player_level">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="type_of_match">
+        <item>Singles</item>
+        <item>Doulbes</item>
+    </string-array>
+    <string-array name="type_of_play">
+        <item>@string/label_hitting_around</item>
+        <item>@string/label_points</item>
+        <item>@string/label_full_match</item>
+    </string-array>
+    <string-array name="court_placement">
+        <item>Indoor</item>
+        <item>Outdoor</item>
+    </string-array>
+    <string-array name="court_surface">
+        <item>Hard</item>
+        <item>Clay</item>
+    </string-array>
+    <string-array name="currency_codes">
+        <item>USD</item>
+        <item>EUR</item>
+    </string-array>
+    <string-array name="profile_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="player_hand">
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+    
+    <string-array name="navigation_menu">
+        <item>TENNIS SETAPP</item>
+        <item>Profile</item>
+        <item>Edit Profile</item>
+        <item>Find Tennis Mates</item>
+        <item>FEEDS</item>
+        <item>Notifications</item>
+        <item>Messages</item>
+    </string-array>
+
+    <string name="label_tennis_level_beginner">BEGINNER (1.5 &#8211; 2.0 &#8211; 2.5)</string>
+    <string name="label_tennis_level_mid_intermediate">MID-INTERMEDIATE (3.0 &#8211; 3.5)</string>
+    <string name="label_tennis_level_intermediate">INTERMEDIATE (4.0 &#8211; 4.5)</string>
+    <string name="label_tennis_level_semi_advanced">SEMI-ADVANCED (5.0 &#8211; 5.5)</string>
+    <string name="label_tennis_level_advanced">ADVANCED (6.0 &#8211; 7.0)</string>
+    
+    
+    <string name="title_activity_calendar">CALENDAR</string>
+    <string name="title_activity_messages">MESSAGES</string>
+    <string name="title_activity_new_message">NEW MESSAGE</string>
+    <string name="title_activity_notifications">NOTIFICATIONS</string>
+
+
+    <string name="title_activity_create_an_account">CREATE AN ACCOUNT</string>
+    <string name="title_activity_choose_profile_type">PROFILE TYPE</string>
+    <string name="hint_email">E-MAIL</string>
+    <string name="hint_password">PASSWORD</string>
+    <string name="hint_confirm_password">CONFIRM PASSWORD</string>
+    <string name="hint_gender">GENDER</string>
+    <string name="hint_last_name">LAST NAME</string>
+    <string name="hint_birth_date">BIRTHDAY (WE WON\'T SHOW IT)</string>
+    <string name="hint_location">LOCATION (WE WON\'T SHOW IT)</string>
+    <string name="hint_availability">AVAILABILITY</string>
+    <string name="hint_hand">HAND</string>
+    <string name="hint_type_of_match">TYPE OF MATCH</string>
+    <string name="hint_type_of_play">TYPE OF PLAY</string>
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="label_home_profile">PROFILE</string>
+    <string name="label_home_calendar">CALENDAR</string>
+    <string name="label_home_mates">MATES</string>
+    <string name="label_home_matches">MATCHES</string>
+    <string name="label_home_courts">COURTS</string>
+    <string name="label_home_teachers">TEACHERS</string>
+</resources>

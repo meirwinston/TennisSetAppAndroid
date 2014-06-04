@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nearby_mates_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="0dp"
+    tools:context=".NearbyMatesFragment" >
+
+    <LinearLayout
+        android:id="@+id/no_items_message_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/gray_lighter"
+            android:paddingBottom="@dimen/space3"
+            android:paddingTop="@dimen/space3"
+            android:text="@string/label_no_mates_available_yet" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/border_height"
+            android:background="@color/gray_lighter" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/tennis_mates_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+    </ListView>
+
+</RelativeLayout>

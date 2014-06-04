@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:orientation="horizontal"
+    android:background="@color/gray_dark" >
+
+    <ImageView
+        android:id="@+id/action_bar_back_icon"
+        android:background="@drawable/selector_actionbar_button"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/arrow_left" />
+    
+    <View
+        android:id="@+id/seperator"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/space2"
+        android:background="@color/gray_light" />
+    
+     <ImageView
+        android:id="@+id/tennissetapp_logo_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/tennissetapp_logo" />
+
+     
+    <TextView
+        android:id="@+id/action_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:maxLines="1"
+        android:textSize="@dimen/text_h3"
+        android:textColor="@android:color/white"
+        android:textStyle="normal" />
+</LinearLayout>
